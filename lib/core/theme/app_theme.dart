@@ -21,7 +21,6 @@ class AppTheme {
         primary: AppColors.primaryEspresso,
         secondary: AppColors.accentNeonGold,
         surface: AppColors.cardSurface,
-        background: AppColors.backgroundWarmCream,
       ),
       fontFamily: GoogleFonts.tajawal().fontFamily,
       appBarTheme: const AppBarTheme(
