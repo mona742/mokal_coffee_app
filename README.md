@@ -33,6 +33,7 @@ Warm Cream (#FFFBEB): خلفيات الواجهات لإعطاء انطباع م
 🏗️ المعمارية النمطية (Architecture & Tech Stack)
 
 يعتمد التطبيق على معمارية MVVM (Model-View-ViewModel) لضمان فصل منطق الأعمال (Business Logic) عن واجهات المستخدم وتسهيل عملية الاختبار والصيانة:
+```bash
 
 lib/
 ├── core/
@@ -49,7 +50,7 @@ lib/
 │   └── tracking/       # تتبع الطلب والخريطة
 │       └── views/      # (OrderTrackingScreen)
 └── main.dart           # نقطة الانطلاق وإعداد الـ Providers
-
+```
 
 🛠️ التقنيات والمكتبات المستخدمة:
 
@@ -78,27 +79,28 @@ CocoaPods (sudo gem install cocoapods)
 خطوات التشغيل (Installation Steps)
 
 استنسخ المستودع (Clone Repository):
+```bash
 
 git clone https://github.com/your-username/mokal-coffee-app.git
 cd mokal-coffee-app
-
+```
 
 تحميل التبعيات (Install Dependencies):
-
+```bash
 flutter pub get
-
+```
 
 إعداد بيئة iOS (Setup CocoaPods):
-
+```bash
 cd ios
 pod install
 cd ..
-
+```
 
 تشغيل التطبيق (Run Application):
-
+```bash
 flutter run
-
+```
 
 📄 الترخيص (License)
 
